@@ -1,0 +1,156 @@
+
+body{
+    font-family:VFZiggofont;    
+}
+
+@font-face {
+    font-family: "VFZiggofont";
+    src: url("/Fonts/vodafonelt-regular.woff") format('woff');
+}
+
+
+.dropdown-item{
+    background-color:#760000;
+
+}
+
+.VFknop{
+    background-color:#760000 !important;
+    border:none;
+    width:100% !important;
+}
+
+.dropdown-item{ 
+    margin-left: 0px;
+        padding: 0 !important;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-radius: 0
+    }
+
+
+
+
+    body {
+        background-color: none;
+    }
+
+    img {
+        width: 30px;
+        height: auto;
+    }
+
+    .navbar.desk {
+        display: none;
+    }
+
+    .container.red {
+        background-color:#eb0000 !important;
+    }
+
+    .dropdown-menu {
+        color: white;
+
+    }
+
+    #dropdownMenuButton  {
+        background-color:#760000    ;
+    }
+
+   
+
+  
+    .hamburger {
+        margin-top: 7px;
+    }
+
+
+    .dropdown {
+        margin-left: 0px;
+        padding: 0 !important;
+    }
+
+    .container .img {
+        width: 40px;
+        height: auto;
+    }
+
+    img.card-img-top {
+        width: 15%;
+    }
+
+    .textcard {
+        width: 300px;
+    }
+
+    .containercards.desk {
+        display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 376px) {
+
+    .navbar.sm {
+        display: none
+    }
+
+    .container.img {
+        width: 40px;
+        height: 40px;
+    }
+ 
+    .navbar.desk{
+        display:-webkit-flex;
+    }
+
+
+    img {
+        width: 30px;
+        height: auto;
+    }
+
+
+    .dropdown-menu {
+        color: white;
+
+    }
+
+    #dropdownMenuButton {
+        background-color: #760000;
+    }
+
+    .containercards.sm {
+        display: none;
+    }
+
+    .containercards {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        background-color: lightgrey;
+    }
+
+    .d-flex.flex-row {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding: 10;
+        background-color: white;
+
+    }
+
+    .cardtitle{
+        color:#760000;
+    }
+}
