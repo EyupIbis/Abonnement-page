@@ -5,9 +5,8 @@ body{
 
 @font-face {
     font-family: "VFZiggofont";
-    src: url("./Fonts/vodafonelt-regular.woff") format('woff');
+    src: url("../Fonts/vodafonelt-regular.woff") format('woff');
 }
-
 
 .dropdown-item{
     background-color:#760000;
