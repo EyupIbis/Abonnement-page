@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="192" height="192"/>
+    <circle cx="71.065" cy="62" r="36" stroke="#676767" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.99"/>
+    <path stroke="#676767" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.99" d="M129.064935,166 C122.584935,122.27 97.5349351,98 71.0649351,98 C44.5949351,98 19.5549351,122.27 13.0649351,166"/>
+    <ellipse cx="138.724" cy="92.823" stroke="#E60000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.99" rx="24.958" ry="25.33"/>
+    <path stroke="#E60000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.99" d="M178.935065,166 C174.442574,135.230483 157.075768,118.153506 138.724497,118.153506 C131.685596,118.153506 124.792552,120.665903 118.715144,125.499712"/>
+  </g>
+</svg>
